@@ -1,141 +1,140 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<serviceInformation xmlns="http://www.worlddab.org/schemas/spi/31"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    creationTime="2014-06-13T10:32:41+01:00"
-    originator="RadioDNS XSI Generator"
-    xml:lang="en"
-    xsi:schemaLocation="http://www.worlddab.org/schemas/spi/31 spi_31.xsd">
+<serviceInformation
+  xmlns="http://www.worlddab.org/schemas/spi/31"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:epg="http://www.worlddab.org/schemas/epgDataTypes/14"
+  xsi:schemaLocation="http://www.worlddab.org/schemas/spi/31 spi_31.xsd"
+  xml:lang="en">
 
-    <services>
+  <services>
 
-        <serviceProvider>
-            <shortName>PEQUErtv</shortName>
-            <mediumName>PEQUErtv</mediumName>
+    <!-- SERVICE PROVIDER -->
+    <serviceProvider>
+      <shortName>Peque Radio</shortName>
+      <mediumName>Peque Radio</mediumName>
 
-            <mediaDescription>
-                <shortDescription>PEQUErtv</shortDescription>
-            </mediaDescription>
+      <mediaDescription>
+        <shortDescription>Radio infantil y familiar</shortDescription>
+      </mediaDescription>
 
-            <epg:link xmlns:epg="http://www.worlddab.org/schemas/epgDataTypes/14"
-                url="https://www.antenita.es"
-                mimeValue="text/html"/>
+      <epg:link
+        url="https://www.antenita.es"
+        mimeValue="text/html"/>
 
-            <mediaDescription>
-                <multimedia
-                    url="https://static.wixstatic.com/media/76b12f_dad02ae506c742bd97c01598aad9e810~mv2.png"
-                    mimeValue="image/png"
-                    type="logo_colour_square"
-                    width="32"
-                    height="32"/>
-            </mediaDescription>
+      <mediaDescription>
+        <multimedia
+          url="https://static.wixstatic.com/media/76b12f_dad02ae506c742bd97c01598aad9e810~mv2.png"
+          type="logo_colour_square"
+          width="32"
+          height="32"/>
+      </mediaDescription>
 
-            <mediaDescription>
-                <multimedia
-                    url="https://static.wixstatic.com/media/76b12f_72b73caf6ad44cae83217a5deeb9cf5e~mv2.png"
-                    mimeValue="image/png"
-                    type="logo_colour_rectangle"
-                    width="112"
-                    height="32"/>
-            </mediaDescription>
+      <mediaDescription>
+        <multimedia
+          url="https://static.wixstatic.com/media/76b12f_72b73caf6ad44cae83217a5deeb9cf5e~mv2.png"
+          type="logo_colour_rectangle"
+          width="112"
+          height="32"/>
+      </mediaDescription>
 
-            <mediaDescription>
-                <multimedia
-                    url="https://static.wixstatic.com/media/76b12f_08680598de844d3b9f12cfa799f811e5~mv2.png"
-                    mimeValue="image/png"
-                    type="logo_unrestricted"
-                    width="128"
-                    height="128"/>
-            </mediaDescription>
+      <mediaDescription>
+        <multimedia
+          url="https://static.wixstatic.com/media/76b12f_08680598de844d3b9f12cfa799f811e5~mv2.png"
+          type="logo_unrestricted"
+          width="128"
+          height="128"/>
+      </mediaDescription>
 
-            <mediaDescription>
-                <multimedia
-                    url="https://static.wixstatic.com/media/76b12f_08680598de844d3b9f12cfa799f811e5~mv2.png"
-                    mimeValue="image/png"
-                    type="logo_unrestricted"
-                    width="320"
-                    height="240"/>
-            </mediaDescription>
+      <mediaDescription>
+        <multimedia
+          url="https://static.wixstatic.com/media/76b12f_08680598de844d3b9f12cfa799f811e5~mv2.png"
+          type="logo_unrestricted"
+          width="320"
+          height="240"/>
+      </mediaDescription>
 
-            <mediaDescription>
-                <multimedia
-                    url="https://static.wixstatic.com/media/76b12f_cf58fdcc9d954073948daa9484cf814b~mv2.png"
-                    mimeValue="image/png"
-                    type="logo_unrestricted"
-                    width="600"
-                    height="600"/>
-            </mediaDescription>
+      <mediaDescription>
+        <multimedia
+          url="https://static.wixstatic.com/media/76b12f_cf58fdcc9d954073948daa9484cf814b~mv2.png"
+          type="logo_unrestricted"
+          width="600"
+          height="600"/>
+      </mediaDescription>
 
-            <geolocation>
-                <country>ES</country>
-            </geolocation>
-        </serviceProvider>
+      <geolocation>
+        <country>ES</country>
+      </geolocation>
+    </serviceProvider>
 
-        <service>
-            <shortName>PEQUErtv</shortName>
-            <mediumName>PEQUErtv</mediumName>
+    <!-- SERVICE -->
+    <service>
+      <shortName>Peque Radio</shortName>
+      <mediumName>Peque Radio</mediumName>
+      <longName>Peque Radio</longName>
 
-            <mediaDescription>
-                <shortDescription>www.antenita.es</shortDescription>
-            </mediaDescription>
+      <!-- REQUIRED BY RADIODNS -->
+      <radiodns fqdn="antenita.es" serviceIdentifier="pequeradio"/>
 
-            <epg:link xmlns:epg="http://www.worlddab.org/schemas/epgDataTypes/14"
-                url="https://www.antenita.es"
-                mimeValue="text/html"/>
+      <mediaDescription>
+        <shortDescription>Radio infantil y familiar</shortDescription>
+        <longDescription>Peque Radio – contenidos y música para niños y familias</longDescription>
+      </mediaDescription>
 
-            <mediaDescription>
-                <multimedia
-                    url="https://static.wixstatic.com/media/76b12f_cf58fdcc9d954073948daa9484cf814b~mv2.png"
-                    mimeValue="image/png"
-                    type="logo_colour_square"
-                    width="32"
-                    height="32"/>
-            </mediaDescription>
+      <epg:link
+        url="https://www.antenita.es"
+        mimeValue="text/html"/>
 
-            <mediaDescription>
-                <multimedia
-                    url="https://static.wixstatic.com/media/76b12f_cf58fdcc9d954073948daa9484cf814b~mv2.png"
-                    mimeValue="image/png"
-                    type="logo_colour_rectangle"
-                    width="112"
-                    height="32"/>
-            </mediaDescription>
+      <mediaDescription>
+        <multimedia
+          url="https://static.wixstatic.com/media/76b12f_dad02ae506c742bd97c01598aad9e810~mv2.png"
+          type="logo_colour_square"
+          width="32"
+          height="32"/>
+      </mediaDescription>
 
-            <mediaDescription>
-                <multimedia
-                    url="https://static.wixstatic.com/media/76b12f_08680598de844d3b9f12cfa799f811e5~mv2.png"
-                    mimeValue="image/png"
-                    type="logo_unrestricted"
-                    width="128"
-                    height="128"/>
-            </mediaDescription>
+      <mediaDescription>
+        <multimedia
+          url="https://static.wixstatic.com/media/76b12f_72b73caf6ad44cae83217a5deeb9cf5e~mv2.png"
+          type="logo_colour_rectangle"
+          width="112"
+          height="32"/>
+      </mediaDescription>
 
-            <mediaDescription>
-                <multimedia
-                    url="https://static.wixstatic.com/media/76b12f_d524498d54694516ab55142f07ef02bf~mv2.png"
-                    mimeValue="image/png"
-                    type="logo_unrestricted"
-                    width="320"
-                    height="240"/>
-            </mediaDescription>
+      <mediaDescription>
+        <multimedia
+          url="https://static.wixstatic.com/media/76b12f_08680598de844d3b9f12cfa799f811e5~mv2.png"
+          type="logo_unrestricted"
+          width="128"
+          height="128"/>
+      </mediaDescription>
 
-            <mediaDescription>
-                <multimedia
-                    url="https://static.wixstatic.com/media/76b12f_cf58fdcc9d954073948daa9484cf814b~mv2.png"
-                    mimeValue="image/png"
-                    type="logo_unrestricted"
-                    width="600"
-                    height="600"/>
-            </mediaDescription>
+      <mediaDescription>
+        <multimedia
+          url="https://static.wixstatic.com/media/76b12f_d524498d54694516ab55142f07ef02bf~mv2.png"
+          type="logo_unrestricted"
+          width="320"
+          height="240"/>
+      </mediaDescription>
 
-            <geolocation>
-                <country>ES</country>
-            </geolocation>
+      <mediaDescription>
+        <multimedia
+          url="https://static.wixstatic.com/media/76b12f_cf58fdcc9d954073948daa9484cf814b~mv2.png"
+          type="logo_unrestricted"
+          width="600"
+          height="600"/>
+      </mediaDescription>
 
-            <bearer id="fm:5e2.5011.09010" cost="0"/>
-            <bearer id="fm:5e2.5011.09640" cost="0"/>
-            <bearer id="fm:5e2.5011.10760" cost="0"/>
-        </service>
+      <geolocation>
+        <country>ES</country>
+      </geolocation>
 
-    </services>
+      <!-- FM BEARERS -->
+      <bearer id="fm:5e5.5011.09010" cost="0"/>
+      <bearer id="fm:5e5.5011.09640" cost="0"/>
+      <bearer id="fm:5e5.5011.10760" cost="0"/>
+
+    </service>
+
+  </services>
 </serviceInformation>
